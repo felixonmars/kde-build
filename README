@@ -22,10 +22,8 @@ of KDE!
   from the working copy.
 * commit-packages: commit all changes to the SVN branch. This does NOT release
   any package.
-* config: set version, branch and if l10n packages should be build. Also a
+* config: set version, branch and if 'any' packages should be build. Also a
   target repo can be set.
-* create-l10n: this create a split PKGBUILD for the l10n packages. Remember to
-  enable l10n in config.
 * download-packages: download the sources from KDE server. If they are already
   downloaded just check integrity.
 * install-packages: install all KDE packages from the build dir.

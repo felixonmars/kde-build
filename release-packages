@@ -2,14 +2,8 @@
 
 . common
 
-for i in ${depPkgName} ${optPkgName} kde-meta; do
+for i in ${depPkgName} ${optPkgName}; do
 	_pushd build/${i}/$svnbranch
 	${repo}pkg "${1}" || exit 1
 	_popd
 done
-
-if ${l10n}; then
-	_pushd build/kde-l10n/$svnbranch
-	${repo}pkg "${1}" || exit 1
-	_popd
-fi
