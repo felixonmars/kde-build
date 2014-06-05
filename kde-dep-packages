@@ -1,6 +1,6 @@
 kwin
 oxygen
-kfilemetadata-frameworks
+kfilemetadata5
 systemsettings
 breeze
 kde-cli-tools
@@ -9,10 +9,10 @@ kio-extras
 libksysguard
 kwrited
 libkscreen2
-baloo-frameworks
+baloo-kf5
 plasma-workspace
 powerdevil
 khotkeys
 kmenuedit
 ksysguard
-milou-frameworks
+milou-kf5
