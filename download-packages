@@ -3,3 +3,4 @@
 . common
 
 rsync -e ssh -c -h -L --progress --partial ftparchlinux@depot.kde.org:${branch}/frameworks/${dirver}/*.xz ${SRCDEST}/
+rsync -e ssh -c -h -L --progress --partial ftparchlinux@depot.kde.org:${branch}/frameworks/${dirver}/portingAids/*.xz ${SRCDEST}/
