@@ -1,7 +1,7 @@
-kdever=4.100.0
+kdever=5.0.0
 dirver=${kdever}
 debug=false
-branch=unstable
+branch=stable
 svnbranch=trunk
 repo=extra
 any=true #upload -any packages?
