@@ -37,6 +37,7 @@ kdesignerplugin
 kpty
 kunitconversion
 threadweaver
+kcmutils
 kactivities-frameworks
 plasma-framework
 kjs
