@@ -12,3 +12,11 @@ libkscreen-frameworks
 milou
 plasma-workspace
 khotkeys
+kinfocenter
+ksysguard
+systemsettings
+kmenuedit
+powerdevil
+libmm-qt5
+libnm-qt5
+polkit-kde-frameworks
