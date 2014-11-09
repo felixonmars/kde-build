@@ -5,7 +5,7 @@
 for i in ${depPkgName} ${optPkgName}; do
 
 	_pushd build/${i}/${svnbranch}
-	sed -r "s|http://download.kde.org/.*stable/|http://download.kde.org/${branch}/|g" -i PKGBUILD
+  sed -r "s|http://download.kde.org/.*stable/frameworks/[0-9]\.[0-9]/|http://download.kde.org/${branch}/frameworks/${kdever%.*}/|g" -i PKGBUILD
 
 	# configure debug build; see http://techbase.kde.org/Development/CMake/Build_Types
 	# @TODO: add debug to existing options array (there are none atm anyway)
