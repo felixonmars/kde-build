@@ -1,5 +1,4 @@
-kdever=5.1.0
-dirver=${kdever}
+kdever=5.1.1
 debug=false
 branch=stable
 svnbranch=trunk
