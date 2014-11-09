@@ -2,5 +2,5 @@
 
 . common
 
-rsync -e ssh -c -h -L --progress --partial ftparchlinux@depot.kde.org:${branch}/frameworks/${dirver}/*.xz ${SRCDEST}/
-rsync -e ssh -c -h -L --progress --partial ftparchlinux@depot.kde.org:${branch}/frameworks/${dirver}/portingAids/*.xz ${SRCDEST}/
+rsync -e ssh -c -h -L --progress --partial ftparchlinux@depot.kde.org:${branch}/frameworks/${kdever}/*.xz ${SRCDEST}/
+rsync -e ssh -c -h -L --progress --partial ftparchlinux@depot.kde.org:${branch}/frameworks/${kdever}/portingAids/*.xz ${SRCDEST}/
