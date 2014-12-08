@@ -2,6 +2,7 @@ extra-cmake-modules
 kapidox
 kcoreaddons
 karchive
+ki18n
 kdoctools
 kauth
 kcodecs
@@ -9,7 +10,6 @@ kconfig
 kwidgetsaddons
 kcompletion
 kguiaddons
-ki18n
 kconfigwidgets
 kwindowsystem
 kcrash
