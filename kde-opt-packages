@@ -10,7 +10,7 @@ knewstuff
 knotifyconfig
 ktexteditor
 kpackage
-libnm-qt5
+networkmanager-qt
 kdelibs4support
 khtml
 kjsembed
