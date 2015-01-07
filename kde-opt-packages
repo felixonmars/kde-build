@@ -9,6 +9,8 @@ kitemmodels
 knewstuff
 knotifyconfig
 ktexteditor
+kpackage
+libnm-qt5
 kdelibs4support
 khtml
 kjsembed
