@@ -1,6 +1,7 @@
 ttf-oxygen
 kfilemetadata5
 kwayland
+kdecoration
 kwin
 oxygen
 baloo-frameworks
@@ -18,5 +19,5 @@ systemsettings
 kmenuedit
 powerdevil
 libmm-qt5
-libnm-qt5
 polkit-kde-frameworks
+libbluedevil-frameworks
